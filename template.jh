@@ -1,0 +1,14 @@
+
+entity TemplateProperties {
+	label String required
+}
+
+entity TemplateColumn {
+	templateName String required
+}
+
+relationship OneToMany {
+	TemplateColumn{properties} to TemplateProperties
+}
+
+service * with serviceImpl
