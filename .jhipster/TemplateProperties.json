@@ -1,0 +1,17 @@
+{
+  "annotations": {
+    "changelogDate": "20250224080955"
+  },
+  "applications": "*",
+  "fields": [
+    {
+      "fieldName": "label",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "name": "TemplateProperties",
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

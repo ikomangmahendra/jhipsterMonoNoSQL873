@@ -1,0 +1,24 @@
+{
+  "annotations": {
+    "changelogDate": "20250224080956"
+  },
+  "applications": "*",
+  "fields": [
+    {
+      "fieldName": "templateName",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "name": "TemplateColumn",
+  "relationships": [
+    {
+      "otherEntityName": "templateProperties",
+      "relationshipName": "properties",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}
